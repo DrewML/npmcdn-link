@@ -1,0 +1,18 @@
+{
+    "name": "npmcdn Link",
+    "version": "1.0.0",
+    "description": "Adds a link to npmcdn.com for packages on npmjs.org",
+    "homepage_url": "https://github.com/DrewML/npmcdn-link",
+    "manifest_version": 2,
+    "minimum_chrome_version": "49",
+    "permissions": [
+        "https://www.npmjs.com/package/*"
+    ],
+    "content_scripts": [
+        {
+            "run_at": "document_idle",
+            "matches": ["https://www.npmjs.com/package/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
