@@ -1,8 +1,8 @@
-# npmcdn-link
+# unpkg-link
 
-Want to explore the actual code published for an npm package, without installing it locally? The [npmcdn](https://npmcdn.com/) service makes this a breeze.
+Want to explore the actual code published for an npm package, without installing it locally? The [unpkg](https://unpkg.com/) service makes this a breeze.
 
-This extension simply adds a link to packages on [npmjs.org](https://www.npmjs.org), with a quick link to view the code on [npmcdn](https://npmcdn.com/).
+This extension simply adds a link to packages on [npmjs.org](https://www.npmjs.org), with a quick link to view the code on [unpkg](https://unpkg.com/).
 
 ![screenshot](screenshot.png)
 
