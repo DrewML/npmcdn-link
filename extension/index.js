@@ -1,5 +1,5 @@
-const packageName = document.querySelector('.package-name a').textContent;
-const lastListItem = document.querySelector('.sidebar .box li:last-child');
+const packageHeader = document.querySelector('main h1');
+const packageName = packageHeader.textContent;
 const cdnUri = `https://unpkg.com/${packageName}/`;
 
-lastListItem.insertAdjacentHTML('afterend', `<li><a href="${cdnUri}">View Code</a></li>`);
+packageHeader.insertAdjacentHTML('afterend', `<p><a href="${cdnUri}">View on unpkg</a></p>`);
