@@ -1,6 +1,6 @@
 {
     "name": "unpkg Link",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Adds a link to unpkg.com for packages on npmjs.org",
     "homepage_url": "https://github.com/DrewML/unpkg-link",
     "manifest_version": 2,
